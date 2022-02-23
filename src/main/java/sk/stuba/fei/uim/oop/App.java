@@ -3,17 +3,15 @@ package sk.stuba.fei.uim.oop;
 
 public class App {
     public static void main(String[] args) {
-        int[] pole = new int[10];
 
-        for(int i = 0; i < pole.length; i++){
-            pole[i] = i;
-        }
+        boolean b = false;
+        int i = 345;
+        int j = 10;
+        String s = "abc";
 
-        for(int i = 0; i < pole.length; i++){
-            App.vypis(i);
-        }
+        System.out.println("int i = " + i + " int j = " + j + " = " + (i + j));
+        System.out.println("String s = " + s + " boolean b " + b + " = " +(s+b));
+        System.out.println("int i = " + i + " boolean b " + b + " = " + i+b);
     }
-    public static void vypis(int a){
-        System.out.println(a);
-    }
+
 }
